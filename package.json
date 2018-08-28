@@ -1,0 +1,25 @@
+{
+  "name": "ts-assessment",
+  "version": "0.0.0-developmemnt",
+  "description": "A test-driven approach to assessing Typescript skills",
+  "main": "index.js",
+  "scripts": {
+    "test:watch": "ts-node node_modules/tape/bin/tape test/**/*.test.ts --watch | tap-spec",
+    "test": "ts-node node_modules/tape/bin/tape test/**/*.test.ts | tap-spec"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.9.2",
+    "@types/tape": "^4.2.32",
+    "prettier": "^1.14.2",
+    "rimraf": "^2.6.2",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.1",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "tslint-config-standard": "^7.1.0",
+    "typescript": "^3.0.1"
+  }
+}
